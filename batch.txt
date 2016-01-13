@@ -1,0 +1,101 @@
+name|country
+Norman Huffman|Macao
+James Snyder|Falkland Islands
+Galvin Haynes|United Arab Emirates
+Xander Welch|Kenya
+Rae Riley|Kenya
+Marah Christian|Sweden
+Alexis Pacheco|Kiribati
+Hunter Norris|Uruguay
+Barclay Benson|Kenya
+McKenzie Francis|Ireland
+Daria Bryan|Mauritius
+Oren Rivers|United Arab Emirates
+Larissa Nicholson|Ghana
+Abbot Hines|Albania
+Iona Thompson|Saudi Arabia
+Cade Tucker|Bangladesh
+Jasmine Cole|Papua New Guinea
+Davis Morrow|French Polynesia
+Ciaran Sheppard|Nepal
+Maggie Kelley|Mozambique
+Ruth Wagner|Burkina Faso
+Karleigh Holcomb|Saint Lucia
+Veda Klein|Kenya
+Rachel Sampson|Pakistan
+Nicole Morse|Mongolia
+Shoshana Irwin|United Kingdom (Great Britain)
+Donna Vincent|Georgia
+Fritz Burnett|Reunion
+Simone Vazquez|Antarctica
+Regina Oconnor|Guyana
+Keaton Wall|Libya
+Owen Holder|Austria
+Mariko Alvarez|Monaco
+Kadeem Le|Pitcairn Islands
+Hamilton Bryant|Bulgaria
+Travis Robertson|Comoros
+Winifred Williamson|French Polynesia
+Naida Macdonald|Sint Maarten
+Chaney Hill|Iceland
+Candace Daugherty|Austria
+Dale Fry|Liechtenstein
+Carter Munoz|South Africa
+Cade Jarvis|Brazil
+Alyssa Monroe|Cameroon
+Eden Alston|Albania
+Jin Gilbert|Senegal
+Violet Rush|El Salvador
+Hunter Hester|Haiti
+Chester Russell|Brunei
+Charissa Mcintosh|Dominican Republic
+Jamal Campbell|Antigua and Barbuda
+Maite Schneider|Saint Kitts and Nevis
+Cameran Gates|Japan
+Drew Nicholson|Kazakhstan
+Bertha Holloway|Qatar
+Solomon Hooper|Côte D'Ivoire (Ivory Coast)
+Brooke Mcintosh|Saint Kitts and Nevis
+Eaton Eaton|Chile
+Zeus Carroll|Saint Barthélemy
+Macey Bridges|Portugal
+Idola Livingston|Chile
+Barbara Clayton|Jordan
+Yardley Rodgers|Timor-Leste
+Yuri Goff|Costa Rica
+Mona Knight|Aruba
+Kirby Gamble|Reunion
+Zachary Leonard|Guinea-Bissau
+Valentine Norris|Germany
+Nehru Conley|Thailand
+Keegan Savage|Denmark
+Adena Callahan|Sierra Leone
+Vanna Kirkland|Austria
+Althea Stafford|Cameroon
+Ria Hodge|Gibraltar
+Kennan Burris|Isle of Man
+Britanni Doyle|Albania
+Urielle Terry|Equatorial Guinea
+Dara Dunlap|Oman
+Lacota Bradley|Malaysia
+Xandra Obrien|Uruguay
+Henry Jacobs|Western Sahara
+Orlando Page|Brunei
+Signe Aguilar|Saint Lucia
+Kaitlin Copeland|Zambia
+Carolyn Watson|South Sudan
+Laith Wilder|Kuwait
+Ivory Maynard|Central African Republic
+Rhoda Chase|Mauritius
+Desiree England|Algeria
+Harrison Cherry|Cuba
+Adara Holman|Saint Helena, Ascension and Tristan da Cunha
+Virginia Mcpherson|Turks and Caicos Islands
+Angelica Montoya|Malta
+Ann Huff|Mauritius
+Patience Giles|Guinea
+Samuel Foster|United Kingdom (Great Britain)
+Raya Meyers|Bosnia and Herzegovina
+Jenette Dorsey|Belgium
+Zena Davenport|Madagascar
+Chloe Ayers|Syria
