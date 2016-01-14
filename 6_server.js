@@ -9,8 +9,8 @@ function start(route, handle) {
 		var pathname = url.parse(request.url).pathname;
 
 		console.log("Path requested: "+pathname);
-		route(handle, pathname, function(data) {
-			response.writeHead(200, {"Content-Type": "text/plain"});
+		route(handle, pathname, function(code, data) {
+			response.writeHead(code, {"Content-Type": "text/plain"});
 			response.write(data);
 			response.end();	
 		});

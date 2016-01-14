@@ -9,7 +9,7 @@ function route(handle, pathname, cb) {
 	}
 	else {
 		console.log("Unable to handle " + pathname);
-		cb("404 NOT FOUND");
+		cb(404, "404 NOT FOUND");
 	}
 }
 
