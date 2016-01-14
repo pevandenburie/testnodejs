@@ -18,7 +18,8 @@ var users = {
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   // res.send('respond with a resource');
-  
+  //req.app => we can access the app if needed
+
   res.render('users', users);
 });
 
