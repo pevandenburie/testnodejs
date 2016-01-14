@@ -6,10 +6,12 @@ block content
 		tr 
 			td!= "<strong>First Name</strong>"
 			td!= "<strong>Last Name</strong>"
+			td!= "<strong>Age</strong>"
 		- 
 			each user in users
 				tr
 					td= user.name
 					td= user.firstname
+					td= user.age
 					td
 						button(type='button' name='delBtn') Del
