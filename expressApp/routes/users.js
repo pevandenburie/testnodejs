@@ -22,8 +22,9 @@ router.get('/', function(req, res, next) {
   });
 });
 
-router.get('/:name', function(req, res) {
 
+// Retrieve all the users with a specific name: 'http://localhost:3000/users/Trump'
+router.get('/:name', function(req, res) {
   var User = req.app.get('User');
   User.find({'name': req.params.name}, function(err, documents) {
   	if (err) {
