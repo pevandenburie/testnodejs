@@ -4,14 +4,10 @@ block content
 	h1 User list
 	table
 		tr 
-			td First Name
-			td Last Name
-		tr
-			td= users[0].name
-			td= users[0].firstname
-		tr
-			td= users[1].name
-			td= users[1].firstname
-		tr
-			td= users[2].name
-			td= users[2].firstname
+			td!= "<strong>First Name</strong>"
+			td!= "<strong>Last Name</strong>"
+		- 
+			each user in users
+				tr
+					td= user.name
+					td= user.firstname
