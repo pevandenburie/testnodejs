@@ -13,10 +13,19 @@ if (cluster.isMaster) {
 		console.log(`Worker ${worker.process.pid} exited with code ${code}`);
 	});
 
-	cluster.on('fork', function(worker) {
+	cluster.on('online', function(worker) {
 		// listen for this new worker messages
 		worker.on('message', function(data) {
-			console.log('Master received a message: ' + data);
+			// var workerMsg = JSON.parse(data);
+			var workerMsg = data;
+			console.log('Master received a message: ' + workerMsg.message);
+
+			setTimeout(function() {
+				console.log("Killing worker "+workerMsg.workerId);
+				if (cluster.workers[workerMsg.workerId]) {
+					cluster.workers[workerMsg.workerId].kill();
+				}
+			}, 1000);
 		});
 
 		// send a msg to the new worker
@@ -38,7 +47,12 @@ else {
 	// create the http server
 	http.createServer(function(req, res) {
 		// notify the Master we received a solicitation
-		cluster.worker.process.send("Worker "+cluster.worker.id+" got an Http request");
+		//cluster.worker.process.send("Worker "+cluster.worker.id+" got an Http request");
+		var workerMsg = {
+			workerId: cluster.worker.id,
+			message: "Worker "+cluster.worker.id+" got an Http request",
+		};
+		cluster.worker.send(workerMsg);
 
 		res.writeHeader(200, {'Content-Type': 'text/plain'});
 		res.write("Hello from worker "+cluster.worker.id+" with PID "+cluster.worker.process.pid);
