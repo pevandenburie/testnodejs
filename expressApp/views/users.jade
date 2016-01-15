@@ -14,4 +14,5 @@ block content
 					td= user.firstname
 					td= user.age
 					td
-						button(type='button' name='delBtn') Del
+						a(href="/users/edit/#{user.name}") Edit | 
+						a(href="/users/delete/#{user.name}") Del

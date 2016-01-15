@@ -35,11 +35,20 @@ function add(userObj, cb) {
 	});
 }
 
+function update(name, userObj, cb) {
+	User.findOneAndUpdate({name: name}, userObj, function(err) {
+		if (!err) {
+			get(name, cb);
+		}
+	})
+}
+
 var operations = {
 	getAll: getAll,
 	get: get,
 	remove: remove,
-	add: add
+	add: add,
+	update: update,
 };
 
 
